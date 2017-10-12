@@ -1,0 +1,529 @@
+html, body {
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cen{
+    display: block;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.white-txt {
+    color: #fff;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+/* Text Colours */
+.txt-success {
+    color: #28a745!important;
+}
+
+.txt-warning {
+    color: #9C3535!important;
+}
+
+.txt-info {
+    color: #17a2b8!important;
+}
+
+.txt-dark {
+    color: #343a40!important;
+}
+
+h1, h2{
+    padding: 0;
+    margin: 0;
+}
+
+/* Border Colours */
+.border-success {
+    border-color: #28a745!important;    
+}
+
+.border-warning {
+    border-color: #9C3535!important;
+}
+
+.border-info {
+    border-color: #17a2b8!important;    
+}
+
+.border-dark {
+    border-color: #343a40!important;
+}
+
+/* Hero 1 */
+.hero {
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.ht1 {
+    min-height: 70%!important;
+    text-align: center;
+    align-items: center;
+    background: url('http://www.ie-wallpapers.com/data/out/247/38181058-wallpaper-technology.jpg');
+}
+
+.ht1 h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ht2 {
+    text-align: center;
+    align-items: center;
+    background-color: #122F36;
+}
+
+.ht2 h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.ht2 p {
+    font-size: 15px;
+    width: 75%;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* BG Colours */
+.bg-trans {
+    background-color: transparent!important;
+}
+
+.bg-warning {
+    background-color: #9C3535!important;
+}
+
+.bg-success {
+    background-color: #28a745!important;
+}
+
+.bg-info {
+    background-color: #17a2b8!important;
+}
+
+.bg-dark {
+    background-color: #343a40!important;
+}
+
+/* ===== Buttons ===== */
+.bt{
+    text-decoration: none;
+}
+button, .bt{
+    height: 40px;
+    width: 100px;
+    color: #fff;
+    border: 1px solid transparent;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: .35rem;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.jump-btn:hover {
+    margin-top: 20px;
+}
+
+/* Warning */
+.bt-warning { 
+    background-color: #9C3535;
+}
+
+.ccw:hover {
+    background-color: #F8E4EC;
+    color: #9C3535;
+    border-color: #9C3535;
+}
+
+/* More */
+.bt-more {
+    background-color: #047EE8;
+}
+
+.ccm:hover {
+    background-color: #C9DBEB;
+    color: #047EE8;
+    border-color: #047EE8;
+}
+
+/* Done */
+.bt-done {
+    background-color: #68D168;
+}
+
+.ccd:hover {
+    background-color: #D5F1D5;
+    color: #449d44;
+    border-color: #449d44;
+}
+
+
+/* Other */
+.bt-oth {
+    background-color: #fff;
+    border-color: #898585;
+    color: #000000;
+}
+
+.cco:hover {
+    background-color: #e6e6e6;
+    color: #000000;
+    border-color: #898585;
+}
+
+/* ### Pill ### */
+.pill-bt {
+    border-radius: 35px;
+}
+
+/* ###### Bt Group ###### */
+/* Basic */
+.bt-group .bt {
+    float: left;
+    border-radius: 0;
+    width: 63px;
+    height: 38px;
+    background-color: #898F95;
+}
+
+.bt-group .bt:hover {
+    background-color: #727b84;
+}
+
+/* Toolbar(ed) */
+.bt-group {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.bt-toolbar .bt {
+    width: 35px;
+}
+
+/* Vertical */
+.bt-group-vertical {
+    margin: 5px;
+}
+
+.bt-group-vertical .bt {
+    position: relative;
+    display: block;
+    float: top;
+    margin: 0;
+    background-color: #898F95;    
+    border-radius: 0;
+}
+
+.bt-group-vertical .bt:hover {
+    background-color: #727b84;    
+}
+
+/* ==========NavBars========== */
+
+/* Global Classes */
+.fixd {
+    position: fixed!important;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* lilo */
+.nav-lilo {
+    background-color: rgb(21, 148, 168);
+    width: 100%;
+    height: 97px;
+}
+
+nav .nlinks a:hover {
+    font-weight: bolder;
+}
+
+.nav-lilo img {
+    margin: 0 auto;
+    height: 45px;
+    width: 50px;
+}
+
+.nav-lilo .logo {
+    position: relative;
+    top: 10px;
+    padding-bottom: 2px;
+    color: #EBEFEF;
+    font-size: 20px;
+}
+
+.nav-lilo .nlinks li {
+    position: relative;
+    display: inline;
+    padding:5px;
+}
+ /* nav-lo */
+ .nav-lo {
+     background-color: #D66666;
+     color: #fff;
+     width: 100%;
+     height: 56px;
+ }
+
+ .nav-lo .cont {
+     display: inline;
+     position: relative;
+     left: 15px;
+     top: 5px;
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+ .nav-lo .logo {
+     position: relative;
+     top: 12px;
+     left: 12px; 
+ }
+
+ /* ========== Breadcrumbs ========== */
+
+ /* Global values */
+ .bdcrumb {
+    padding: .75rem 1rem;
+    margin: 1rem 0.75rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    color: #868e96;    
+ }
+
+ ol a {
+     text-decoration: none;
+ }
+
+ .bdcrumb-item {
+     position: relative;
+     display: inline;
+ }
+
+/* ========== Pagination ========== */
+.pagination{
+    display: inline-block;
+}
+.pagination .pg-itm {
+    list-style: none;
+    border: 1px solid #ddd;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.pagination .pg-lnk {
+    color: #1B86F9;    
+    text-decoration: none;
+}
+
+.pagination .pg-itm:hover {
+    background-color: #e9ecef;
+}
+
+.pagination .pg-lnk:hover {
+    color: #0A58AC;    
+}
+
+/* ========== List Group ========== */
+.list-grp {
+    padding: 0 15px;
+    position: relative;
+}
+
+.list-grp .list-grp-itm {
+    list-style: none;
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.list-grp .active {
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.lgflush .list-grp {
+    padding: 0;
+}  
+
+.lgflush .list-grp-itm {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
+/* ========== Alerts ========== */
+.alert {
+    margin: 0.75rem 15px 0.75rem 15px;
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.alert-info {
+    color: #023A76;
+    background-color: #B4D5F8;
+    border-color: #b8daff;
+}
+
+.alert-success {
+    color: #0F4A1C;
+    background-color: #BFF4CC;
+    border-color: #c3e6cb;
+}
+
+.alert-warning {
+    color: #55141A;
+    background-color: #F8CCD0;
+    border-color: #f5c6cb;
+}
+
+.alert-dark {
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+}
+
+.alert-lnk {
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
+.alert-lnk:hover {
+    text-decoration: underline;
+}
+
+.alert-h {
+    font-size: 25px;
+    margin: 5px;
+}
+
+/* Card */
+.card {
+    position: relative;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 20rem;
+    margin: 10px;
+}
+
+.w1-2 {
+    width: 10rem;
+}
+
+.w3-4 {
+    width: 15rem;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.card-title {
+    margin: .5rem .75rem 0 .75rem;
+    font-size: 23px;
+}
+
+.card-txt {
+    margin: .75rem;
+}
+
+.card .bt {
+    margin: 0 1rem .75rem;
+    width: 8rem;
+    height: 1.5rem;    
+}
+
+.card-stitle {
+    font-style: italic;
+    margin: 0 0 0 .75rem;
+    color: #443939;
+    font-size: 15px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #0A58AC;
+    margin-left: 1rem;
+    margin-bottom: .75rem!important;
+}
+
+.card-head {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+@media(min-width:770px) {
+    .nav-lilo {
+        height: 70px;
+    }
+    .nav-lilo .nlinks {
+        position: absolute;
+        top:0;
+        right:0;
+        padding: 7px 25px 0 0;
+    }
+    .nav-lilo .logo {
+        position: absolute;
+        left: 10px;
+        padding: 3px 0 0 25px;
+    }
+}
