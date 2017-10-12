@@ -1,8 +1,8 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Bree+Serif|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Source+Sans+Pro|Lobster|Ubuntu|Merriweather');
 
 nav .nlinks {
-    font-family: 'Bree Serif', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
     color: rgb(255, 255, 255);
 }
 
@@ -20,10 +20,23 @@ nav .version {
     background-color: #FFFFFF;
 }
 
+hr {
+    border: 1px solid #0099CC;
+    margin-left:10px;
+    margin-right:10px;display: block;
+    width: 90%;
+}
+
 .hero .hlo {
     margin-top: 30px;
     height: 150px;
     width: 150px;
+}
+
+.hero h2 {
+    color: #fff!important;
+    font-size: 1.8rem;  
+    font-family: 'Merriweather', serif;    
 }
 
 .hero h1 {
@@ -105,6 +118,19 @@ nav .version {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+/* Font Awesome */
+.fa {
+    margin: 0 10px;
+}
+
+.fa-link {
+    color: transparent;
+}
+
+.fa-link:hover {
+    color: #555;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
