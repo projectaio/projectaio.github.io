@@ -511,6 +511,46 @@ nav .nlinks a:hover {
     border-top: 1px solid rgba(0,0,0,.125);
 }
 
+/* ===== Footers ===== */
+
+/* Signature Footer */
+.sign-footer {
+    width: 100%;
+    min-height: 20%;
+    background-color: rgb(21, 148, 168);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sign-footer .social {
+    display: inline;
+    padding: 10px 0 15px 0;
+}
+
+.sign-footer .social a {
+    color: #D9E6EB!important;    
+}
+
+.sign-footer .social a:hover {
+    color: #FFFFFF!important;
+}
+
+.sign-footer .fc {
+    line-height: 20px;
+    color: #D9E6EB;
+    font-size: .9rem;
+}
+
+.sign-footer .fc a {
+    text-decoration: underline dotted;
+    color: #D9E6EB;
+}
+
+/* For screens greater than 770px wide */
+
 @media(min-width:770px) {
     .nav-lilo {
         height: 70px;
