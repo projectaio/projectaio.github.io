@@ -1,13 +1,28 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Source+Sans+Pro|Lobster|Ubuntu|Merriweather');
 
+a {
+    color: rgb(21, 148, 168);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 nav .nlinks {
+    font-size: .95rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(255, 255, 255);
 }
 
 .toggle {
     margin: 5px;
+}
+
+.toggle:hover {
+    font-weight: bold;
 }
 
 nav .version {
@@ -20,8 +35,12 @@ nav .version {
     background-color: #FFFFFF;
 }
 
+.doc-hero {
+    margin-bottom: 10px;
+}
+
 hr {
-    border: 1px solid #0099CC;
+    border: 1px solid #65C5E6;
     margin-left:10px;
     margin-right:10px;display: block;
     width: 90%;
@@ -122,7 +141,7 @@ hr {
 
 /* Font Awesome */
 .fa {
-    margin: 0 10px;
+    margin: 0 10px 0 0;
 }
 
 .fa-link {
@@ -159,30 +178,30 @@ hr {
     .toggle{
         display: none;
     }
-    .hero {
+    .ht2 {
         position: relative;
         display: inline;
     }
     .hero p {
         padding: 0;
     }
-    .hero .bt-warning {
+    .ht2 .bt-warning {
         margin-left: -30px;
         width: 340px;
         height: 55px;
     }
-    .hero #la {
+    .ht2 #la {
         margin-left: 45px;
         width: 50%;
         position: relative;
         left:0;
         margin-top: 100px;
     }
-    .hero .hlo {
+    .ht2 .hlo {
         height: 300px;
         width: 300px;
     }
-    .hero #ra {
+    .ht2 #ra {
         margin-top: 100px;
         float: right;
         position: relative;
