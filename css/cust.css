@@ -1,6 +1,9 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Source+Sans+Pro|Lobster|Ubuntu|Merriweather');
 
+/* Font Awesome */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 a {
     color: rgb(21, 148, 168);
     text-decoration: none;
@@ -39,8 +42,12 @@ nav .version {
     margin-bottom: 10px;
 }
 
+.doc-hero p {
+    font-size: 17px!important;
+}
+
 hr {
-    border: 1px solid #65C5E6;
+    border: .001rem solid #65C5E6;
     margin-left:10px;
     margin-right:10px;display: block;
     width: 90%;
@@ -52,9 +59,9 @@ hr {
     width: 150px;
 }
 
-.hero h2 {
+.doc-hero h2 {
     color: #fff!important;
-    font-size: 1.8rem;  
+    font-size: 1.6rem;  
     font-family: 'Merriweather', serif;    
 }
 
