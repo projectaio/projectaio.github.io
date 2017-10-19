@@ -11,6 +11,10 @@ a:hover {
     font-weight: bold;
 }
 
+nav .logo {
+    margin-bottom: 12px;
+}
+
 nav .nlinks {
     font-size: .95rem;
     font-family: 'Source Sans Pro', sans-serif;
