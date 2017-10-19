@@ -1,8 +1,16 @@
+/* Font Awesome */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 html, body {
     height:100%;
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+ol,ul {
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .cen{
@@ -516,7 +524,8 @@ nav .nlinks a:hover {
 /* Signature Footer */
 .sign-footer {
     width: 100%;
-    min-height: 20%;
+    min-height: 110px;
+    margin-top: 20px;
     background-color: rgb(21, 148, 168);
     display: flex;
     flex-direction: column;
@@ -527,7 +536,7 @@ nav .nlinks a:hover {
 
 .sign-footer .social {
     display: inline;
-    padding: 10px 0 15px 0;
+    padding: 20px 0 15px 0;
 }
 
 .sign-footer .social a {
@@ -542,6 +551,7 @@ nav .nlinks a:hover {
     line-height: 20px;
     color: #D9E6EB;
     font-size: .9rem;
+    padding-bottom: 20px;
 }
 
 .sign-footer .fc a {

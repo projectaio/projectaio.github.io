@@ -54,7 +54,7 @@
         <!-- Docs Content -->
         <div class="doc-cont">
                 <style>bt-more{width: 150px!important;}</style>
-                <h3><i class="fa fa-download" aria-hidden="true"></i></i>Compiled CSS And JS<a href="../../download.html"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+                <h3><i class="fa fa-download" aria-hidden="true"></i>Compiled CSS And JS<a href="../../download.html"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
                 <p>Download complete source files for AIO WebPress v1.0Beta on your server (Recommended for faster transference of data). The source includes following files:</p>
                 <ul>
                     <li>Minified CSS files (default classes, division classes and/or additional classes</li>
@@ -65,10 +65,42 @@
                       Download Now      <i class="fa fa-download" aria-hidden="true"></i>
                       </button>
                 </a>
-                <p>Place the downloaded files in the root folder or main folder of your project and link them to all your HTML docs as follows:</p>
-                <figure class="code-cont"><pre><code data-lang="html"><span class="bd">&lt;link</span> <span class="bl">rel=</span><span class="wi">"stylesheet"</span> <span class="bl">href=</span><span class="wi">"aiowp/css/aio.min.css"</span> <span class="bl">type=</span><span class="wi">"text/css"</span> <span class="bd">&gt;</span></code></pre></figure>       
-                <figure class="code-cont"><pre><code data-lang="html"><span class="bd">&lt;link</span> <span class="bl">rel=</span><span class="wi">"stylesheet"</span> <span class="bl">href=</span><span class="wi">"aiowp/css/aio.min.css"</span> <span class="bl">type=</span><span class="wi">"text/css"</span> <span class="bd">&gt;</span></code></pre></figure>      
-              </div>               
+                <p>The downloaded file must be a .tar.gz file that should be extracted to get the required folder. The extracted folder must contain the following files:</p>
+                <ul>
+                    <li>
+                        css
+                        <ul>
+                            <li>aiowp.css</li>
+                            <li>aiowp.min.css</li>
+                            <li>aiodiv.min.css</li>
+                            <li>aioxtra.min.css</li>
+                        </ul>
+                    </li>
+                    <li>
+                        js
+                        <ul>
+                            <li>aiowp.js</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>Place the extracted folder (named "aio") in the root folder or main folder of your project and link all the internal files to all your HTML docs as follows:</p>
+                <h5>For CSS:</h5>
+                <figure class="code-cont"><pre><code data-lang="html"><span class="com">&lt;!-- AIO Main CSS --&gt;</span><br><span class="bd">&lt;link</span> <span class="bl">rel=</span><span class="wi">"stylesheet"</span> <span class="bl">href=</span><span class="wi">"/aio/css/aiowp.min.css"</span> <span class="bl">type=</span><span class="wi">"text/css"</span> <span class="bd">&gt;</span><br><br><span class="com">&lt;!-- AIO Divisions CSS --&gt;</span><br><span class="bd">&lt;link</span> <span class="bl">rel=</span><span class="wi">"stylesheet"</span> <span class="bl">href=</span><span class="wi">"/aio/css/aiodiv.min.css"</span> <span class="bl">type=</span><span class="wi">"text/css"</span> <span class="bd">&gt;</span><br><br><span class="com">&lt;!-- AIO Optional CSS --&gt;</span><br><span class="bd">&lt;link</span> <span class="bl">rel=</span><span class="wi">"stylesheet"</span> <span class="bl">href=</span><span class="wi">"/aio/css/aioxtra.min.css"</span> <span class="bl">type=</span><span class="wi">"text/css"</span> <span class="bd">&gt;</span></code></pre></figure>     
+                <h5>For JavaScript:</h5>
+                <figure class="code-cont"><pre><code data-lang="html"><span class="com">&lt;!-- AIO JS --&gt;</span><br><span class="bd">&lt;script</span> <span class="bl">src=</span><span class="wi">"/aio/js/aiowp.js"</span> <span class="bl">type=</span><span class="wi">"text/javascript"</span> <span class="bd">&gt;</span></code></pre></figure>
+              </div>  
+    <hr>
+    <!-- Docs Content -->
+        <div class="doc-cont">
+                <style>bt-more{width: 150px!important;}</style>
+                <h3><i class="fa fa-anchor" aria-hidden="true"></i>Add via CDN</h3>
+            <p>An easy way to install AIO WebPress to your website is to link your HTML files to our CSS/JS files via a special 'Content Delivery Network'. Installation using this way doesn't requires any downloads!</p>
+            <h5>For CSS:</h5>
+            <figure class="code-cont"><pre><code data-lang="html"><span class="com">&lt;!-- AIO Main CSS --&gt;</span><br><span class="bd">&lt;link</span> <span class="bl">rel=</span><span class="wi">"stylesheet"</span> <span class="bl">href=</span><span class="wi">"http://cdn.projectaio.xyz/css/aiowp.min.css"</span> <span class="bl">type=</span><span class="wi">"text/css"</span> <span class="bd">&gt;</span><br><br><span class="com">&lt;!-- AIO Divisions CSS --&gt;</span><br><span class="bd">&lt;link</span> <span class="bl">rel=</span><span class="wi">"stylesheet"</span> <span class="bl">href=</span><span class="wi">"http://cdn.projectaio.xyz/css/aiodiv.min.css"</span> <span class="bl">type=</span><span class="wi">"text/css"</span> <span class="bd">&gt;</span><br><br><span class="com">&lt;!-- AIO Optional CSS --&gt;</span><br><span class="bd">&lt;link</span> <span class="bl">rel=</span><span class="wi">"stylesheet"</span> <span class="bl">href=</span><span class="wi">"http://cdn.projectaio.xyz/css/aioxtra.min.css"</span> <span class="bl">type=</span><span class="wi">"text/css"</span> <span class="bd">&gt;</span></code></pre></figure>     
+            <h5>For JavaScript:</h5>
+            <figure class="code-cont"><pre><code data-lang="html"><span class="com">&lt;!-- AIO JS --&gt;</span><br><span class="bd">&lt;script</span> <span class="bl">src=</span><span class="wi">"http://cdn.projectaio.xyz/js/aiowp.js"</span> <span class="bl">type=</span><span class="wi">"text/javascript"</span> <span class="bd">&gt;</span></code></pre></figure>
+            <h5><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>Installing AIO WP this way may seldom lead to slower your site loading process depending upon the traffic we receive!</h5>
+    </div>
     <!-- Footer -->
     <footer class="sign-footer">
         <div class="social">
@@ -80,7 +112,9 @@
         </div>
         <div class="fc">
           <a href="../../about.html">AIO WebPress</a> v1.0Beta <br>
-          Created by <a href="https://ceo.tswchain.in/">Liam Smith</a>
+          Created by <a href="https://ceo.tswchain.in/">Liam Smith</a><br>
+          Code released under <a href="https://github.com/projectaio/projectaio/blob/master/LICENSE">The 2-Clause BSD License</a>.
+
         </div>
     </footer>
     <!-- Js -->
