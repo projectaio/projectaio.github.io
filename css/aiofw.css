@@ -8,6 +8,11 @@ html, body {
     padding: 0;
 }
 
+p {
+    margin: 7px;
+    padding: 0;
+} 
+
 ol,ul {
     margin-top: 0;
     margin-bottom: 10px;
